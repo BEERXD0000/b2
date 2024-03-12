@@ -57,10 +57,10 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
       .setURL('https://www.youtube.com/watch?v=yiUSvbDRR4o')
-      .setState(`รับทำเม็ดม่วงฟรี`)
+      .setState(`สนใจทักแชทสอบถาม`)
       .setName(`🎮`)
-      .setDetails(`สนใจทักแชทสอบถาม`)
-      //.setAssetsSmallImage(`${popp}`) 
+      .setDetails(`รับทำเม็ดม่วงฟรี`)
+      .setAssetsSmallImage(`${popp}`) 222
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
