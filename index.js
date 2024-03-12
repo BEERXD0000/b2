@@ -37,10 +37,10 @@ client.on('ready', async () => {
     const change = ['https://cdn.discordapp.com/attachments/1103573084201562223/1217180488897138868/TenseDefiniteBobwhite-size_restricted.gif?ex=660316aa&is=65f0a1aa&hm=a06977411a43723df6ec4daa4d3933868739abd2e65fc2d7810c922f5c10c99e&']; //รูปใหญ่
     const poop = ['https://emoji.discadia.com/emojis/c1710c66-0716-422d-a61e-ce31f2f0ccb2.gif']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
-    const yyyt = ['เพลงนี้ผมเขียนให้เธอ']; // ชื่อ button2
+    const yyyt = ['Music2']; // ชื่อ button2
     const ddds = ['https://youtu.be/R8FqFH1mJNc?si=hV6yjDcGlKac_4fc']; // ลิ้ง button1
 
-   const iooi = ['เพลงนี้ก็เขียนให้เธออีกแล้ว']; // ชื่อ button 1
+   const iooi = ['Music1']; // ชื่อ button 1
    const iiio = ['https://youtu.be/yiUSvbDRR4o?si=owDedPplxgMtcPml']; // ลิ้ง button 2
    const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
    const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
