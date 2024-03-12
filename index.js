@@ -60,7 +60,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setState(`สนใจทักแชทสอบถาม`)
       .setName(`🎮`)
       .setDetails(`รับทำเม็ดม่วงฟรี`)
-      .setAssetsSmallImage(`${popp}`) 222
+      .setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
