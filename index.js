@@ -35,7 +35,7 @@ client.on('ready', async () => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
     const change = ['https://cdn.discordapp.com/attachments/1103573084201562223/1217180488897138868/TenseDefiniteBobwhite-size_restricted.gif?ex=660316aa&is=65f0a1aa&hm=a06977411a43723df6ec4daa4d3933868739abd2e65fc2d7810c922f5c10c99e&']; //รูปใหญ่
-    const poop = ['https://cdn.discordapp.com/emojis/1074342782421958718.gif?size=96&quality=lossless']; // รูปเล็ก
+    const poop = ['https://cdn.discordapp.com/attachments/1103573084201562223/1217197757530509372/narco.gif?ex=660326bf&is=65f0b1bf&hm=ec2a300a7c63c0254d9bd227c368db007dfe0c42df451a6d38053e6e9282c7af&']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
     const yyyt = ['✨Instagram']; // ชื่อ button2
     const ddds = ['https://www.instagram.com/']; // ลิ้ง button1
@@ -60,7 +60,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setState(`สนใจทักแชทสอบถาม`)
       .setName(`🎮`)
       .setDetails(`รับทำเม็ดม่วงฟรี`)
-      //.setAssetsSmallImage(`${popp}`) 
+      .setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
