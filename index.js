@@ -35,7 +35,7 @@ client.on('ready', async () => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
     const change = ['https://cdn.discordapp.com/attachments/1103573084201562223/1217180488897138868/TenseDefiniteBobwhite-size_restricted.gif?ex=660316aa&is=65f0a1aa&hm=a06977411a43723df6ec4daa4d3933868739abd2e65fc2d7810c922f5c10c99e&']; //รูปใหญ่
-    const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
+    //const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
     const yyyt = ['✨Instagram']; // ชื่อ button2
     const ddds = ['https://www.instagram.com/']; // ลิ้ง button1
@@ -61,7 +61,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setName(`🎮`)
       .setDetails(`รับทำเม็ดม่วงฟรี`)
       .setAssetsSmallImage(`${popp}`) 
-.setAssetsLargeImage(`${ssss}`)
+//.setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
 .addButton(`${ioii}`,`${oooi}`)  
