@@ -35,13 +35,13 @@ client.on('ready', async () => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
     const change = ['https://cdn.discordapp.com/attachments/1103573084201562223/1217180488897138868/TenseDefiniteBobwhite-size_restricted.gif?ex=660316aa&is=65f0a1aa&hm=a06977411a43723df6ec4daa4d3933868739abd2e65fc2d7810c922f5c10c99e&']; //รูปใหญ่
-    const poop = ['https://emoji.discadia.com/emojis/c1710c66-0716-422d-a61e-ce31f2f0ccb2.gif']; // รูปเล็ก
+    const poop = ['https://cdn.discordapp.com/emojis/1074342782421958718.gif?size=96&quality=lossless']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
-    const yyyt = ['Music2']; // ชื่อ button2
-    const ddds = ['https://youtu.be/R8FqFH1mJNc?si=hV6yjDcGlKac_4fc']; // ลิ้ง button1
+    const yyyt = ['✨Instagram']; // ชื่อ button2
+    const ddds = ['https://www.instagram.com/']; // ลิ้ง button1
 
-   const iooi = ['Music1']; // ชื่อ button 1
-   const iiio = ['https://youtu.be/yiUSvbDRR4o?si=owDedPplxgMtcPml']; // ลิ้ง button 2
+   const iooi = ['🐷Facebook']; // ชื่อ button 1
+   const iiio = ['https://web.facebook.com/?locale=th_TH&_rdc=1&_rdr']; // ลิ้ง button 2
    const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
    const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
    const oooi = 
@@ -56,9 +56,9 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
     const r = new Discord.RichPresence()
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
-      .setURL('https://youtu.be/H3mCPr46-qk?si=xh7jWP3D9f52yE8K')
+      .setURL('https://www.youtube.com/watch?v=yiUSvbDRR4o')
       .setState(`รับทำเม็ดม่วงฟรี`)
-      .setName(`00`)
+      .setName(`🎮`)
       .setDetails(`สนใจทักแชทสอบถาม`)
       //.setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
